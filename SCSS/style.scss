@@ -1,6 +1,16 @@
 @import "./utilities/variables";
 @import "./base/fonts";
 @import "./utilities/mixins";
-@import "./base/reset"
+@import "./base/reset";
+
+@import "./components/buttons";
+@import "./components/footer";
+@import "./components/navigation";
+
+@import "./views/home";
+@import "./views/contacto";
+
+
+
 
 

@@ -1,0 +1,14 @@
+nav{ 
+    @include flex-center;
+}
+
+ul{ 
+    @include flex (column,space-around, center,3rem);
+    @include sizes (100% , 28vh);
+    background-color: red;
+}
+
+section{ 
+    background-color: black; 
+}
+
