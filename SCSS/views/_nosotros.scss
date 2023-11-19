@@ -20,29 +20,6 @@
      } 
  }
 
- .articulos { 
-    @include flex (column,space-between,center,null);
-    .articulo{ 
-        width: 1000px ;
-
-        .articulo_img{ 
-            width: 500px ;
-        }
-
-        .articulo__title{ 
-            font-size: $font-xxl ;
-        }
-
-    }
-
-
-    a{ 
-        color: $color-principal;
-        text-decoration: none;
-     }
-  
- } 
-
  .logo {
     width: 150px;
     height: 100px;
@@ -66,12 +43,4 @@
 
 .instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-
-.encabezado {
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    gap: 10rem;
-    flex-wrap: wrap;
 }
