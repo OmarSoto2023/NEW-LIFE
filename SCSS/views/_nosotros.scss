@@ -1,4 +1,12 @@
-.navegacion{ 
+.encabezado{
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    gap: 10rem;
+    flex-wrap: wrap;
+ }
+
+ .navegacion{ 
     background-color:cyan ;
     .menu{ 
         @include flex (null,center ,center , null);
